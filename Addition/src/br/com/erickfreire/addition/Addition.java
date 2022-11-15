@@ -13,9 +13,9 @@ public class Addition {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		int number1;
-		int number2;
-		int sum;
+		double number1;
+		double number2;
+		double sum;
 		
 		System.out.println("Program that performs the addition between two values: ");
 		System.out.print("Enter the first value: ");
@@ -26,7 +26,7 @@ public class Addition {
 		
 		sum = number1 + number2;
 		
-		System.out.printf("The sum result is: %d%n", sum);
+		System.out.printf("The sum of "+number1+"and "+" number2 "+" is "+ sum);
 
 	}
 
